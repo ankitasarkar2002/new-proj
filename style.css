@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.inputs{
+    border: 1px solid white;
+    padding: 4px 8px;
+}
+
+#reset{
+    margin-left: 70px;
+}
+.btn{
+    padding: 6px 8px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+#reset:hover{
+    background-color: brown;
+}
