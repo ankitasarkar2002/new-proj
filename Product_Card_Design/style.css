@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* @media only screen and (max-width:55px; max){
+    body{
+        background-color: green;
+    }
+} */
 body{
     height: 100vh;
     width: 100%;
@@ -12,6 +17,7 @@ body{
     background-color: aliceblue;
     
 }
+
 .container{
     
     height: 463px;
@@ -22,6 +28,7 @@ body{
     justify-content: top;                
     align-items: center;
     background-color: white;
+    border-radius: 5px;
     
 }
 .product{
@@ -82,7 +89,18 @@ body{
     background-color:green;
     color: white;
 }
+.CTA:hover{
+    color: red;
+    background-color: black;
+    /* transform: rotate(20deg); */
+    /* transform: scale(1); */
+    /* transform: translateX(-20px); */
+}
 .cart{
     width: 64px;
     height: 44px;
+}
+@media (min-width:400px){ 
+    /* .container */
+    /* {background-color:red;} */
 }
