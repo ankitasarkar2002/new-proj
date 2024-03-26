@@ -1,7 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: medium;
 
 }
 body{
@@ -45,9 +49,18 @@ img{
 
     
 }
-/* .nav_elements:hover{
-    color:blue;
-} */
+.right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav_elements a{
+    text-decoration: none;
+}
+.nav_elements a:hover{
+    color: dodgerblue;
+}
 .search{
     height: 60px;
     width: 90px;
@@ -55,6 +68,10 @@ img{
     align-items: center;
     justify-content: center;
 
+}
+.search img{
+    height: 36px;
+    width: 36px;
 }
 .registration{
     height: 60px;
@@ -81,7 +98,6 @@ img{
     background-color: rgb(245, 242, 242);
     display: flex;
     
-   
 
 }
 .image{
@@ -111,6 +127,12 @@ img{
     background-color: rgb(245, 242, 242);
     display: flex;
     justify-content: space-around;
+}
+.content_three img{
+    opacity: 0.5;
+}
+.content_three img:hover{
+    opacity: 1;
 }
 .service1{
     width:150px;
@@ -142,4 +164,70 @@ img{
 .service7{
     width:150px;
     height: 80px;
+}
+.content_four{
+    width: 100%;
+    height: 500px;
+    display: flex;
+
+}
+.faq{
+    height: 400px;
+    width: 50%;
+    background-color:blue;
+    
+    column-gap: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    margin-left: 50px;
+    margin-top: 70px;
+
+}
+.faqs{
+    background-color: white;
+    width: 70%;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding:15px 15px 15px 15px;
+}
+iframe{
+    height: 400px;
+    width: 50%;
+    position: relative;
+    z-index: 1;
+    margin-left: -90px;
+    }
+.container_six{
+    width: 100%;
+    height: 550px;
+   background-color: rgb(245, 242, 242);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dabba1{
+    
+    height: 400px;
+    width: 23%;
+}
+.dabba2{
+
+    width: 23%;
+    height: 400px;
+}
+.dabba3{
+    
+    width: 23%;
+    height: 400px;
+}
+.dabba4{
+   
+    width: 23%;
+    height: 400px;
 }
