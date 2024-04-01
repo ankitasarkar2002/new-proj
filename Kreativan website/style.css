@@ -111,41 +111,41 @@ html {
 
 
 .content_two {
-    height: 50rem;
     background-color: rgb(245, 242, 242);
     display: flex;
 
 }
 
-.image {
-    height: 34.375rem;
+.new_image {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 6.25;
     object-fit: contain;
+    /* background-color: red; */
 }
 
-.image img {
+.new_image img {
     width: 87%;
     border-radius: 0.25;
 }
 
 .content {
-    height: 34.37rem;
+
     width: 50%;
     font-size: 1.18rem;
     font-style: normal;
     padding-top: 3.125rem;
+    /* background-color: green; */
 }
 
 .content_three {
-    height: 18.75rem;
-    background-color: rgb(245, 242, 242);
+    /* height: 18.75rem; */
+    background-color: rgb(245, 242, 242); 
     display: flex;
     flex-wrap: wrap;
-
+    margin:4rem 1rem 1rem 5rem;  
 }
 
 .service {
@@ -169,14 +169,15 @@ html {
 }
 
 .content_four {
-    width: 100%;
-    height: 31rem;
+    /* width: 100%;
+    height: 31rem; */
     display: flex;
+    margin-top: 4rem;
 
 }
 
 .faq {
-    height: 25rem;
+    /* height: 25rem; */
     width: 50%;
     background-color: blue;
 
@@ -196,7 +197,7 @@ html {
 .faqs {
     background-color: white;
     width: 70%;
-    height: 3.125rem;
+    /* height: 3.125rem; */
     margin-bottom: 0.625rem;
     border-radius: 0.3125rem;
     padding: 0.937rem 0.937rem 0.937rem 0.937rem;
@@ -209,22 +210,61 @@ iframe {
     z-index: 1;
     margin-left: -5.625rem;
 }
-
-.container_seven {
-    
-    width: 100%;
-    height: 34.375rem;
-    background-color: rgb(245, 242, 242);
+.container_five{
+     height: 6.75rem;
+    font-size: 2.1775rem;
+    font-weight: 600;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin: 4rem 1rem 3rem 1rem;
+}
+.container_six{
+    width: 100%;
     
+    display: flex;
+    /* flex-wrap: wrap; */
+
+}
+.img{
+    /* background-color: brown; */
+    width: 50%;}
+
+.img img{
+    /* height: 25rem; */
+    width: 80%;
+    height: 25rem;
+
+}
+.para{
+    width: 50%;
+    /* background-color: blue; */
+    /* display: grid;
+    align-items: center; */
+
+
 }
 
+
+
+.container_seven {
+    background-color: rgb(245, 242, 242);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.blocks{
+    display: flex;
+    gap: 1rem;
+    margin-top: 3.5rem;
+    
+}
 .dabba1 {
 
-    height: 25rem;
-    width: 23%;
+    /* height: 28.5rem; */
+    width: 20rem;
 }
 
 .dabba1 img {
@@ -234,46 +274,35 @@ iframe {
 
 .dabba2 {
 
-    width: 23%;
-    height: 25rem;
+    width: 20rem;
+    /* height: 28.5rem; */
+    /* background-color: yellow; */
 }
 
 .dabba3 {
 
-    width: 23%;
-    height: 25rem;
+    width: 20rem;
+    /* height: 28.5rem; */
+    /* background-color: pink; */
 }
 
 .dabba4 {
 
-    width: 23%;
-    height: 25rem;
+    width: 20rem;
+    /* height: 28.5rem; */
+    /* background-color: aquamarine; */
 }
-.container_five{
-    height: 6.25rem;
-    font-size: 2.1775rem;
-    font-weight: 600;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container_six{
-    height:34.375rem;
-    
-    display: flex;
-
-}
-.container_six img{
-    height: 25rem;
-    width: 50%;
-}
-
 
 @media (max-width : 768px) {
     html {
         /* 1 rem = 12px */
         font-size: 12px;
     }
+    .container_seven {
+        display: flex;
+        flex-wrap: wrap;}
+    
+
 
 
 }
@@ -282,4 +311,13 @@ iframe {
         /* 1 rem = 12px */
         font-size: 8px;
     }
+    .container_seven {
+        display: flex;
+        flex-wrap: wrap;}
+}
+.container_six{
+   
+    /* display: flex;
+     flex-wrap: wrap; */
+
 }
