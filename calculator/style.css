@@ -1,0 +1,39 @@
+.text-center{
+    text-align: center;
+}
+.row{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: medium;
+    margin: 0.5rem 0;
+  
+}
+button{
+    font-weight:300;
+    font-size: medium;
+    height: 4rem;
+    width: 3.5rem;
+    align-items: center;
+    border-color: brown;
+    border-radius: 0.5rem;
+    background-color: rgb(192, 200, 205);
+    cursor: pointer;
+   
+}
+.button{
+    margin:0.2rem;
+}
+.row input {
+    font-size:medium;
+    border-radius: 0.2rem;
+    border-color: brown;
+    border: 0.1rem solid brown;
+    padding: 0.4rem 0.9rem;
+    margin: 0;
+    
+    
+
+}
