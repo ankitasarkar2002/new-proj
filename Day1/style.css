@@ -13,8 +13,8 @@ body{
 }
 .container{
     background-color: rgba(0, 0, 0, 0.2);
-    width: 350px;
-    height: 400px;
+    width: 400px;
+    height: 420px;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -37,4 +37,8 @@ body{
 }
 #reset:hover{
     background-color: brown;
+}
+.formerror{
+    color: brown;
+    font-size: smaller;
 }

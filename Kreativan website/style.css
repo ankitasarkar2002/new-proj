@@ -194,13 +194,30 @@ html {
 
 }
 
-.faqs {
+.accordian {
     background-color: white;
     width: 70%;
     /* height: 3.125rem; */
     margin-bottom: 0.625rem;
     border-radius: 0.3125rem;
     padding: 0.937rem 0.937rem 0.937rem 0.937rem;
+}
+.question{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    /* background-color: red; */
+
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+}
+.answer.active{
+max-height: fit-content;
+}
+.icon .active{
+    transform: rotate(-90deg);
 }
 
 iframe {

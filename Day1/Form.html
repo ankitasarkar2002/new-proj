@@ -9,27 +9,35 @@
 <body>
     <div class="container">
         <h2  class="title">Kreativan Technology Form</h2>
-        <form action="#">
+        <form name="myForm" action="#" onsubmit="return validateForm()">
             <div  class="user details">
-                <div class="input-box">
+                <div class="input-box" id="name1">
                     <span class="details">First Name</span>
-                    <input type="text"placeholder="Enter yor first name" required class="inputs">
+                    <input name="fname" type="text"placeholder="Enter yor first name" class="inputs">
+                    <span class="formerror"><b></b></span>
                     </div>
                     <br>
-                    <div class="input-box">
+                   
+                    <div class="input-box" id="name2">
                         <span class="details">Last Name</span>
-                        <input type="text"placeholder="Enter your last name" required class="inputs">
-                        </div>
+                        <input name="lname" type="text"placeholder="Enter your last name"  class="inputs">
+                        <span class="formerror"><b></b></span
+                    </div>
                         <br>
-                <div class="input-box">
+                        <br>
+                <div class="input-box" id="mailId">
                     <span class=" details"> Email id</span>
-                    <input type="Email"placeholder="Email id" required class="inputs">
+                    <input name="email" type="Email"placeholder="Email id"  class="inputs">
+                    <span class="formerror"><b></b></span
                     </div>
                     <br>
-                <div class="input-box">
+                    <br>
+                <div class="input-box" id="contactInfo">
                     <span class=" details">Contact number</span>
-                    <input type="number"placeholder="contact number" required class="inputs">
+                    <input name="contact" type="number"placeholder="contact number"  class="inputs">
+                    <span class="formerror"><b></b></span
                     </div>
+                    <br>
                     <br>
                     Male 
                     <input type="radio" checked=true name="user_gender"> 
@@ -45,5 +53,6 @@
         </form>
 
     </div>
+    <script src="./form.js"></script>
 </body>
 </html>
