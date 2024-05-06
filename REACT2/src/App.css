@@ -8,10 +8,20 @@ body{
   flex-direction: column;
 }
 .input{
-  width: 50rem;
+  width: 40rem;
+  height: 4.5rem;
 }
 .button{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.maxTemp{
+  color: red;
+}
+.minTemp{
+  color: green;
+}
+form h1{
+  color:rgb(113, 131, 51);
 }
