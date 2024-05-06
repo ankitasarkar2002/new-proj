@@ -1,0 +1,1 @@
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid=412abe098a6b0e84a2d30abf21da7d0c

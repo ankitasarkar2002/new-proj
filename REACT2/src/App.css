@@ -1,0 +1,17 @@
+body{
+  background-color: lightgray;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.input{
+  width: 50rem;
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

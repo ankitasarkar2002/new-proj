@@ -1,0 +1,17 @@
+.form-inline{
+  display: flex;
+  align-items: center;
+  gap: 16px ;
+}
+.btn1{
+  background-color: lightblue;
+}
+.btn2{
+  background-color: lightpink;
+}
+body{
+  background-color:lightgray;
+}
+.btn3{
+  background-color: lightskyblue;
+}
